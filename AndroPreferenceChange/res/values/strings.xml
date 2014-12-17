@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PreferenceChange</string>
+    <string name="test_category_string">Test Category</string>
+    <string name="test_preference_string">Test Preference</string>
+    <string name="test_preference_summary_string">Test Preference Summary</string>
+    <string name="settings">Settings</string>
+
+</resources>

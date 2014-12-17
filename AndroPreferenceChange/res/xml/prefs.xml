@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="Settings">
+        <EditTextPreference android:title="Name"
+                android:inputType="text"
+                android:key="name" 
+                android:persistent="true" 
+                android:defaultValue="" />
+               
+        <EditTextPreference android:title="Password"
+                android:inputType="textPassword"
+                android:key="password" 
+                android:persistent="true" 
+                android:defaultValue="" />
+ 
+        <CheckBoxPreference android:title="Auto login"
+          android:key="autostart" 
+          android:persistent="true" 
+          android:defaultValue="true" />
+</PreferenceScreen>
